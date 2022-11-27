@@ -20,5 +20,5 @@ from source import views
 urlpatterns = [
     path('source/', include('source.urls')),
     path('admin/', admin.site.urls),
-    path('resources/', views.reso, name='reso')
+    path('resources/', views.resolpi, name='resolpi')
 ]

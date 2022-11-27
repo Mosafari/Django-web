@@ -6,6 +6,6 @@ def index(request):
     template = loader.get_template('main.html')
     return HttpResponse(template.render())
 
-def reso(request):
-    template = loader.get_template('resources.html')
+def resolpi(request):
+    template = loader.get_template('resourcelpi.html')
     return HttpResponse(template.render())
