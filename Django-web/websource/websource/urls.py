@@ -20,5 +20,8 @@ from source import views
 urlpatterns = [
     path('source/', include('source.urls')),
     path('admin/', admin.site.urls),
-    path('resources/', views.resolpi, name='resolpi')
+    path('resourcelpi/', views.resolpi, name='resolpi'),
+    path('resourcepy/', views.resopy, name='resopy'),
+    path('resourceflask/', views.resoflask, name='resoflask'),
+    path('resourcedjango/', views.resodjango, name='resodjango')
 ]

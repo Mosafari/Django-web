@@ -9,3 +9,16 @@ def index(request):
 def resolpi(request):
     template = loader.get_template('resourcelpi.html')
     return HttpResponse(template.render())
+
+def resopy(request):
+    template = loader.get_template('resourcepy.html')
+    return HttpResponse(template.render())
+
+def resoflask(request):
+    template = loader.get_template('resourceflask.html')
+    return HttpResponse(template.render())
+
+def resodjango(request):
+    template = loader.get_template('resourcedjango.html')
+    return HttpResponse(template.render())
+
